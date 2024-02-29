@@ -9,7 +9,7 @@ A command-line application that collects user input to generate a logo and save 
     - Text color
     - A shape (circle, triangle, square)
     - Shape color
--  Dynamically generates a `SVG` file that incorporates all four of the user's desired traits
+- Dynamically generates a `SVG` file that incorporates all four of the user's desired traits
 - Exports the generated `logo.svg` file to this application's directory 
 
 This exercise was provided by Northwestern University and edX through the Coding boot camp. Submitted as fulfillment of the Module 10 exercise during the December, 2023 - June, 2024 cohort.
@@ -42,12 +42,14 @@ Once the installation instructions have been completed, the application can be u
 1. Utilizing your preferred command-line interface, set your working directory to this application's downloaded directory.
 2. Within the downloaded directory, initialize the application using the command:
     > node index.js
-3. This will present you with a series of prompts that will be utilized to develop a `logo.svg` file. Type your response and use the "Enter"/"Return" button to submit your response and advance to the next prompt. 
+3. This will present you with a series of prompts that will be utilized to develop a `logo.svg` file. Type your response and use the "Enter"/"Return" button to submit your response and advance to the next prompt.
+    - For the color prompts, provide a color keyword or a hexadecimal number (including `#`). 
+        - If an unrecognized color keyword or hexadecimal color is provided, the generator will default to black.
     - For the "Shape" information prompt, utilize the arrow keys to navigate to your selected license.
 3. Upon completion of the final prompt, "What color would you like to use for your logo's shape?", your `logo.svg` file will be exported to the downloaded directory with a file name "logo.svg"
 4. Upon a successful export, the following text will be logged to the console: "Generated logo.svg". If an error has occurred, an error message will be logged.
 
-- [Link to a Walkthrough Video]()
+- [Link to a Walkthrough Video](https://watch.screencastify.com/v/iGmdZiTX3vAI0s2N7kJr)
 
 - [Link to the GitHub repository](https://github.com/anthonyero/SVG-logo-maker)
 
@@ -60,7 +62,7 @@ Please refer to the commit history and branches within the repository for a trac
 
 ## Testing
 
-Tests were implemented in the `shapes.test.js` file and utilize the Jest package. The tests implemented ensure that each shape class can successfully create a new instance of the desired shape, invoke the shapes' `setColor()` method, and the `render()` method. All three shape-specific classes passed their respective tests. 
+Tests were implemented in the `shapes.test.js` file and utilize the Jest package. The tests implemented ensure that each shape class can successfully create a new instance of the desired shape, invoke the shapes' `setColor()` and  `render()` methods. All three shape-specific classes passed their respective tests. 
 
 To run these tests on your local machine, utilize the following command:
 
@@ -74,3 +76,5 @@ This application utilizes the [Inquirer](https://www.npmjs.com/package/inquirer)
 ## License
 
 N/A
+
+![SVG Logo Maker Walkthrough Gif](/assets/images/SVG%20Logo%20Maker%20Walkthrough%20Video.gif)
