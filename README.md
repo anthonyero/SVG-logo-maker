@@ -46,7 +46,7 @@ Once the installation instructions have been completed, the application can be u
     - For the color prompts, provide a color keyword or a hexadecimal number (including `#`). 
         - If an unrecognized color keyword or hexadecimal color is provided, the generator will default to black.
     - For the "Shape" information prompt, utilize the arrow keys to navigate to your selected license.
-3. Upon completion of the final prompt, "What color would you like to use for your logo's shape?", your `logo.svg` file will be exported to the downloaded directory with a file name "logo.svg"
+3. Upon completion of the final prompt, "What color would you like to use for your logo's shape?", your 300x200 dimension `logo.svg` file will be exported to the downloaded directory with a file name "logo.svg". 
 4. Upon a successful export, the following text will be logged to the console: "Generated logo.svg". If an error has occurred, an error message will be logged.
 
 - [Link to a Walkthrough Video](https://watch.screencastify.com/v/iGmdZiTX3vAI0s2N7kJr)
